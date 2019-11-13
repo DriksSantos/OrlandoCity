@@ -121,8 +121,9 @@ header .container {
 
 .search input{
     color: #ffffff;
-    background-color: #502088;
+    background-color:#5e2799;
     border: none;
+    border-radius: 20px;
 }
 
 .search input::-webkit-input-placeholder{ /* Troca a cor do texto search*/
@@ -132,8 +133,9 @@ header .container {
 
 .search button{
     color: rgba(255, 255, 255, 0.5);
-    background-color: #502088;
+    background-color:#5e2799;
     border: none;
+    border-radius: 20px;
 }
 
 #banner{
@@ -194,7 +196,7 @@ header .container {
     background-color: #5e2799;
     text-align: center;
     width: 100%;
-    height: 160px;
+    height: 200px;
     margin: 0 auto;
 }
 
@@ -209,4 +211,124 @@ header .container {
     font-size: 20px;
     margin: 10px;
     text-transform: uppercase;
+}
+
+#call-to-action{
+    position: relative;
+    margin: 100px;
+}
+
+#call-to-action h2{
+    color: #5e2799;
+    text-align: center;
+    text-transform: uppercase;
+    
+  }
+
+#call-to-action hr{
+      width: 150px;
+      border: #fde192 solid 2px;
+      margin: 0 auto;
+  }
+
+#call-to-action p{
+    margin: 50px;
+    text-align: center;
+}
+
+#call-to-action .btn{
+    width: 100px;
+    margin: auto;
+    padding: 15px;
+    color: #fde192;
+    background-color: #5e2799;
+    border: none;
+    border-radius: 10px;
+    display: block;
+}
+
+#footer-grey{
+    height: 200px;
+    background-color: #171f26 ;
+}
+
+#logo-footer{
+    width: 105px;
+    height: 120px;
+    margin: 40px;
+}
+
+.popular-posts{
+    float: left;
+}
+
+.links{
+    margin: auto;
+}
+
+.get-in-touch{
+    float: right;
+    margin-top: -173px;
+}
+
+#columns h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fde192;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+   
+}
+#columns hr{
+    width: 150px;
+    border: #fde192 solid 1px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#columns p{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+#columns time{
+    font-size: 12px;
+    color: #fde192;
+    margin-left: 80px;
+}
+
+#columns li{
+    list-style-type: none;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+}
+
+#columns a{
+    color: #ffffff;
+    
+}
+
+
+#footer-grey-dark{
+    height: 60px;
+    background-color: #11171d;
+    border-top: #242d37 solid 3px;
+}
+
+.copy{
+    text-align: left;
+    color:#fde192;
+    margin: 16px;
+}
+
+.credits{
+    color: #5e2799;
+    font-weight: bold;
+    margin-left: 630px;
+    margin-top: 16px;
 }
